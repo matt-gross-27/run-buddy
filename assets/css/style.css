@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -25,7 +26,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: #fce183;
 } 
 
 header nav {
@@ -86,18 +87,12 @@ section {
     width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
-    /*
-    Above code is shorthand for the following:
-    border-style: solid;
-    border-width: 3px;
-    border-color: #024e76;
-    */
     position: absolute;
     bottom: 120px;
     right: 140px;
 }
 
-h3 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
@@ -127,4 +122,26 @@ h3 {
     padding: 10px 20px;
     font-size: 16px;
 }
-/* HERO STYLES END /*
+/* HERO STYLES END */
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
