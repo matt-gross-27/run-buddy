@@ -12,3 +12,5 @@ https://matt-gross-27.github.io/run-buddy/
 
 ## Contribution
 Madd with 💚 by Matt Gross
+
+### ©️2019 Run Buddy, Inc 
