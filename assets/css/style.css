@@ -322,8 +322,6 @@ section {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
-
 /* SERVICE PLANS END */
 
 /* REACH OUT STYLES START */
@@ -482,6 +480,22 @@ section {
     flex: 100%;
   }
 
+  .service-grid-container {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .service-grid-item.column-header {
+    grid-column: 1/-1;
+    grid-row: -1;
+    writing-mode: unset;
+    transform: none;
+  }
+  
+  .service-grid-item.both-plans {
+    grid-column: 1/-1;
+    grid-row: 5/6;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
