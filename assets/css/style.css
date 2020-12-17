@@ -318,7 +318,7 @@ section {
   grid-row: -3/-2;
 }
 
-.grid-head, .grid-price, {
+.grid-head, .grid-price {
   font-size: 1.5rem;
   font-weight: bold;
 }
