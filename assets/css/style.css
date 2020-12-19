@@ -348,7 +348,6 @@ section {
   background: var(--secondary-color);
   color: var(--primary-color);
   flex: 1;
-  max-width: 420px;
 }
 
 .trainer-img {
